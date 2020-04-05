@@ -1,3 +1,7 @@
+#Python script
+#Checking IP camera SD card health
+
+
 import requests, re
 import xml.etree.ElementTree as ET
 
