@@ -1,3 +1,8 @@
+#Python script
+#Using API dadata.ru
+#Get fias/oktmo/postal
+
+
 import dbf, requests, os
 
 table = dbf.Table(r'C:\Users\Chel-uirc\Desktop\Doc\Backup\821405.dbf')
