@@ -3,7 +3,6 @@
 
 
 import requests, re
-import xml.etree.ElementTree as ET
 
 data_list = []
 polyvision = {'Миасское': 'http://192.168.167.152/action/get?subject=diskinfo&id=0',
