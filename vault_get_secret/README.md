@@ -36,7 +36,7 @@ web:
 ```
 
 Output example:
-![GitHub Logo](/pic/vault_get.png)
+![GitHub Logo](/pic/vault_get_secret/vault_get.png)
 
 &nbsp;
 
@@ -50,4 +50,4 @@ docker run -v /service_variables.json:/service_variables.json  \
 ```
 
 Output example:
-![GitHub Logo](/pic/vault_put.png)
+![GitHub Logo](/pic/vault_get_secret/vault_put.png)
