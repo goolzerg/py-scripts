@@ -1,0 +1,36 @@
+{
+    "RabbitSettings": {
+      "ConnectionString": "host=localhost",
+      "ExchangeName": "incoming_documents",
+      "RoutingKey": "zenithGateway",
+      "IncomingQueue": "incoming_documents.register",
+	  "NotQueue": "notQueue"
+    },
+    "DatabaseConnectionSettings": {
+      "ConnectionString": "Server=localhost;Port=5432;Database=Sod.SpdDocumentProcessing;User Id=Infinitum;Password=Infinitum;POOLING=True;MINPOOLSIZE=1;MAXPOOLSIZE=1024;"
+    },
+    "BufferDbGatewayApiSettings": {
+      "Url": "https://localhost:44309"
+    },
+    "SpdApiSettings": {
+      "Url": "https://localhost:44301"
+    },
+    "S3Settings": {
+      "AccessKey": "minioadmin",
+      "SecretKey": "minioadmin",
+      "ServiceUrl": "http://localhost:9001/",
+      "BucketName": "infinitum"
+    },
+    "Jaeger": {
+      "JAEGER_AGENT_HOST": "localhost",
+      "JAEGER_AGENT_PORT": 6831
+    },
+    "ProcessingSettings": {
+      "AuthoritySystemId": 528,
+      "UkIds": {
+        "UkOpening": 503,
+        "RSHB": 25775,
+        "ManagementSavings":  248 
+      }
+    }
+  }
